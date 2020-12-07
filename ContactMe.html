@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+<body>
+    <form action="mailto:sanchitkalsi@gmail.com" method="post" enctype="text/plain">
+        <label>Name:
+            <input type="text" name="Cname" autocomplete="name">
+        </label>
+        <br>
+        <br>
+        <label >
+            Email:
+            <input type="email" name="CEmail">
+        </label>
+        <br>
+        <br>
+        <label >
+            Password:
+            <input type="password" name="CPass">
+        </label>
+        <br>
+        <br>
+        <label>
+            Mobile No.:
+            <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" name="CMobile">
+        </label>
+        <br>
+        <br>
+        <label >
+            Message for me:
+            <textarea name="name" id="msg" cols="20" rows="5"></textarea>
+        </label>
+        <br>
+        <h2>OR</h2>
+        <label>
+            Upload the doubt file:
+            <input type="file">
+        </label>
+        <br>
+        <br>
+        <p><strong>I should contact you via:</strong></p>
+        <label >Call</label>
+        <input type="radio" id="call" name="call">
+        <br>
+        <label >Email</label>
+        <input type="radio" id="email" name="call">
+        <br>
+        <p>Date of enquiry: </p>
+        <br>
+        <input type="date">
+        <br>
+        <br>
+        <label >Expertize level:</label>
+        <input type="range" name="range" id="range">
+        <br>
+        <br>
+        <button>Save</button>
+
+    </form>
+</body>
+</html>
