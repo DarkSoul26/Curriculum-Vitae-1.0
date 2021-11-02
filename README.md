@@ -1,2 +1,2 @@
-# cv
-About Sanchit and his experiences.
+# Curriculum Vitae 1.0
+A CV website using basic HTML and CSS.
